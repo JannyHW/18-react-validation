@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background: #444343;
+  justify-content: center;
+  box-sizing: border-box;
+  font-family: "Helvetica", sans-serif;
+}
+
+#root {
+  width: 45%;
+  margin-top: 3%;
+}
+
+#heading {
+  color: white;
+  display: flex;
+  font-size: 35px;
+  margin: 8% 0 5% 0;
+  justify-content: left;
+  font-weight: lighter;
+}
+
+form {
+  width: 100%;
+}
+
+label {
+  color: white;
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+input {
+  height: 35px;
+  color: white;
+  margin-bottom: 30px;
+  background: #434343;
+  border: 1px solid white;
+}
+
+input:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: white;
+  opacity: 0.5;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+}
+
+.borderRed {
+  border: solid 1px red;
+}
+
+.textRed {
+  color: red;
+}
+
+#submitBtn {
+  width: 40%;
+  padding: 13px;
+  color: white;
+  align-self: center;
+  background: #434343;
+  border: 1px solid white;
+}
+
+.thanks {
+  display: none;
+  text-align: center;
+}
